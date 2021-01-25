@@ -74,6 +74,18 @@ GPIO2 - Led Builtin
 4. Inverted Push-button mode (1->0) "TOGGLE" is sent (falling edge)
 5. Push-button mode with longpress (0 = "TOGGLE", 1 = "ON" (default), long press = "HOLD")
 6. Inverted Push-button mode with longpress (0 = "OFF", 1 = "TOGGLE" (default), long press = "HOLD") 
-14. Inverted "push to on" mode (0 = ON, 1 = nothing)
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14. (14) Inverted "push to on" mode (0 = ON, 1 = nothing)
 
-## SwitchTopic
+## SwitchTopic/ButtonTopic
+
+0. Disable use of MQTT switch topic
+1. Set MQTT switch topic to Topic
+2. Set MQTT switch topic (32 chars max)
+3.
