@@ -65,4 +65,15 @@ GPIO2 - Led Builtin
 
 {"NAME":"ESP32 DEVKIT V1 (36pins)","GPIO":[32,0,288,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0],"FLAG":0,"BASE":18}
 
-## 
+## SwitchMode
+
+0. Default (Toggle mode) "TOGGLE" is sent (falling AND rising edge)
+1. Follow (0 = Off, 1 = on) "ON/OFF" is sent
+2. Inverted follow (1 = Off, 0 = On) "ON/OFF" is sent
+3. Push-button mode (0->1) "TOGGLE" is sent (rising edge)
+4. Inverted Push-button mode (1->0) "TOGGLE" is sent (falling edge)
+5. Push-button mode with longpress (0 = "TOGGLE", 1 = "ON" (default), long press = "HOLD")
+6. Inverted Push-button mode with longpress (0 = "OFF", 1 = "TOGGLE" (default), long press = "HOLD") 
+14. Inverted "push to on" mode (0 = ON, 1 = nothing)
+
+## SwitchTopic
