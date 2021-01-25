@@ -89,3 +89,9 @@ GPIO2 - Led Builtin
 1. Set MQTT switch topic to Topic
 2. Set MQTT switch topic (32 chars max)
 3.
+
+## Test
+
+* Configuration --> Configure Module
+* GPIO0 --> Switch1
+* GPIO2 --> Led2
