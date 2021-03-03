@@ -28,7 +28,11 @@ Det finns två verioner av HC-SR501
 
 ## Installera Tasmota på ESP8266
 
+<a href="https://github.com/johansundstrom/tasmota">se repo om Tasmota</a>
+
 ## Installera Tasmota på ESP32
+
+<a href="https://github.com/johansundstrom/tasmota">se repo om Tasmota</a>
 
 ## Tethering to WiFi
 
